@@ -20,8 +20,8 @@ function Home() {
           <h1>Occian Fumnanya Diaali</h1>
           <h3>Solutionist. Software developer.</h3>
           <p>
-            <a href="/">github</a> | <a href="/">twitter</a> |{" "}
-            <a href="/">linkedin</a> | <a href="/">medium</a>{" "}
+            <a href="https://github.com/occiandiaali">github</a> | <a href="https://twitter.com/occiandiaali">twitter</a> |{" "}
+            <a href="https://www.linkedin.com/in/oceandiaali/">linkedin</a> | <a href="https://medium.com/@occiandiaali">medium</a>{" "}
           </p>
         </div>
         <div className="carousel-item">
