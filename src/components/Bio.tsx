@@ -6,11 +6,11 @@ function Bio() {
     return(
         <div>
             <h1>Short Bio</h1>
-            <p>Formerly known as <strong>Patrick Chukwufumnanya Diali</strong>, I spent 20 years as a broadcast media professional (in television, videography, and radio) before deciding to enter the field of I.T. and switched from a hardware engineering focus to software development because SOFTWARE ROCKS!</p>
-            <p>I volunteer to teach web development to teenagers in the summer with <a href="/">TeenCode Africa</a></p>
-            <p>I am largely self-taught, and have participated in a bootcamp/sprints with <a href="/">Andela.</a> </p>
-            <p>I have been certified by Cisco (CCENT &amp; CCNA), CompTia (Network+ &amp; Security+), and Microsoft (MTA &amp; MCP)</p>
-            <p>View my badges : <a href="/">Cisco</a> | <a href="/">CompTia</a> | <a href="/">Microsoft</a></p>
+            <h5><strong>After 20 years as a broadcaster I decided to become a computer engineer, learning hardware engineering and then software development</strong></h5>
+            <h5><strong>and recently became a Google Africa developer scholar</strong></h5>
+            <p><strong>I support teenagers learning web development in the summer with <a href="https://twitter.com/teencodea" target="_blank" rel="noopener noreferrer">TeenCode Africa</a></strong></p>
+            <p>I have been certified by: </p>
+            <p><a href="https://www.youracclaim.com/badges/accc2b1d-0f0c-4264-8778-449c22b7c125/linked_in" target="_blank" rel="noopener noreferrer">Cisco</a> | <a href="https://www.youracclaim.com/badges/dcd1154e-8efd-415c-8225-ade2033e2c53/public_url" target="_blank" rel="noopener noreferrer">CompTia</a> | <a href="https://www.youracclaim.com/badges/7d07911b-c43d-4641-ad75-843b4b94facf/public_url" target="_blank" rel="noopener noreferrer">CompTia</a> | <a href="https://www.youracclaim.com/badges/25a99bba-5d9d-4c93-8c7c-f99d64d1c5d8/linked_in" target="_blank" rel="noopener noreferrer">Microsoft</a></p>
         </div>
     );
 }

@@ -1,38 +1,36 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 function Game() {
+    const history = useHistory();
     return(
         <div className="container-fluid">
-            <h1>Games</h1>
+            <h2>Games</h2>
             <div className="row">
                 <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="http://news-aye.firebaseapp.com">News Eye Now</a></p>
+                <a href="/"><img src={require("../assets/images/egg-smash.jpg")} alt="egg smash" className="i-mg"/></a>
+                    <p><a href="/">Egg Smash</a></p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
+                <a href="/"><img src={require("../assets/images/bray-bee-shot.jpg")} alt="bray bee" className="i-mg"/></a>
+                    <p><a href="/">Bray the bee</a></p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
+                <a href="/"><img src={require("../assets/images/game3.jpg")} alt="deeb chibi" className="i-mg"/></a>
+                    <p><a href="/">Deeb Chibi</a></p>
+                </div>
+                <div className="col-sm">
+                <a href="/"><img src={require("../assets/images/game4.jpg")} alt="match 3" className="i-mg"/></a>
+                    <p><a href="/">Match 3</a></p>
+                </div>
+                <div className="col-sm">
+                    <a href="/"><img src={require("../assets/images/game5.jpg")} alt="dodge reds" className="i-mg"/></a>
+                    <p><a href="/">Dodge Reds</a></p>
                 </div>
             </div>
+            <button className="btn btn-success" onClick={() => history.goBack()}>Clear</button>
 
-            <div className="row">
-                <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="http://news-aye.firebaseapp.com">News Eye Now</a></p>
-                </div>
-                <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
-                </div>
-                <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
-                </div>
-            </div>
+
         </div>
     );
 }

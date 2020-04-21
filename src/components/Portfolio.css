@@ -1,0 +1,15 @@
+#arrow {
+    width: 7%;
+    height: 7%;
+    position: relative;
+    animation: rock 3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rock {
+    0% {left: 0px; top: 0px;}
+    25% {left: 20px; top: 0px;}
+    50% {left: 0px; top: 0px;}
+    75% {left: 20px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}

@@ -1,7 +1,8 @@
 import React from "react";
 
 import Bio from "./Bio";
-import Portfolio from "./Portfolio";
+import Portfolio from './Portfolio';
+
 
 import "./Home.css";
 
@@ -16,12 +17,12 @@ function Home() {
 
       <div className="carousel-inner">
         <div className="carousel-item active">
-          {/* <img src="https://cdn.pixabay.com/photo/2017/03/22/23/36/bear-2166796__340.png" alt="Los Angeles" className="ava" /> */}
           <h1>Occian Fumnanya Diaali</h1>
+          <p>Formerly known as <strong>Patrick C. Diali</strong></p>
           <h3>Solutionist. Software developer.</h3>
           <p>
-            <a href="https://github.com/occiandiaali">github</a> | <a href="https://twitter.com/occiandiaali">twitter</a> |{" "}
-            <a href="https://www.linkedin.com/in/occiandiaali/">linkedin</a> | <a href="https://medium.com/@occiandiaali">medium</a>{" "}
+            <a href="https://github.com/occiandiaali" target="_blank" rel="noopener noreferrer">github</a> | <a href="https://twitter.com/occiandiaali" target="_blank" rel="noopener noreferrer">twitter</a> |{" "}
+            <a href="https://www.linkedin.com/in/occiandiaali/" target="_blank" rel="noopener noreferrer">linkedin</a> | <a href="https://medium.com/@occiandiaali" target="_blank" rel="noopener noreferrer">medium</a>{" "}
           </p>
         </div>
         <div className="carousel-item">
@@ -30,6 +31,7 @@ function Home() {
         <div className="carousel-item">
           <Portfolio />
         </div>
+
       </div>
 
       <a className="carousel-control-prev" href="#demo" data-slide="prev">

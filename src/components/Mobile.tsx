@@ -1,38 +1,31 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 function Mobile() {
+    const history = useHistory();
     return(
         <div className="container-fluid">
-            <h1>Mobile Apps</h1>
+            <h2>Mobile Apps</h2>
             <div className="row">
                 <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="http://news-aye.firebaseapp.com">News Eye Now</a></p>
+                <a href="/"><img src={require("../assets/images/gidi.jpg")} alt="gidi guide" className="i-mg"/></a>
+                    <p><a href="http://news-aye.firebaseapp.com">Gidi Guide</a></p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
+                <a href="/"><img src={require("../assets/images/timbr-shot.png")} alt="boy" className="i-mg"/></a>
+                    <p><a href="/">Timbr</a></p>
                 </div>
                 <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
+                <a href="/"><img src={require("../assets/images/react-web.jpg")} alt="boy" className="i-mg"/></a>
+                    <p><a href="/">MeetApp</a></p>
+                </div>
+                <div className="col-sm">
+                <a href="/"><img src={require("../assets/images/qoboqo.png")} alt="boy" className="i-mg"/></a>
+                    <p><a href="/">QoboQo</a></p>
                 </div>
             </div>
+            <button className="btn btn-success" onClick={() => history.goBack()}>Clear</button>
 
-            <div className="row">
-                <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="http://news-aye.firebaseapp.com">News Eye Now</a></p>
-                </div>
-                <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
-                </div>
-                <div className="col-sm">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="boy" className="i-mg"/>
-                    <p><a href="#">Boy</a></p>
-                </div>
-            </div>
         </div>
     );
 }

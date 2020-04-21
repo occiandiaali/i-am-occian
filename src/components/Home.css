@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../assets/fonts/Amble-Bold.ttf') format('truetype');
+}
+
 .carousel {
   margin-top: 6em;
   /* background-color: slategrey; */
@@ -9,18 +14,21 @@
 .carousel-control-prev {
     filter: invert(100%);
 }
-/* h1, h3, p {
-    font-family: 'Courier', Courier, monospace;
-} */
-h1, h3, p {
-    font-family: 'Marker Felt', Courier, monospace;
+h1, h3 {
+  font-family: 'MyWebFont','Arial Rounded MT Bold', Geneva, Tahoma, sans-serif;
 }
+/* h1, h3, p {
+    font-family: cursive, Courier, monospace;
+} */
+/* h1, h3, p {
+    font-family: 'Marker Felt', Courier, monospace;
+} */
 
-.ava {
+/* .ava {
   width: 7em;
   height: 7em;
   border-radius: 50%;
-}
+} */
 
 a {
   color: maroon;
