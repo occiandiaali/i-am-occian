@@ -8,13 +8,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div id="demo" className="carousel slide" data-ride="carousel">
-      <ul className="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" className="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-
+    <div id="demo" className="carousel slide" data-interval="false" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <h1>Occian Fumnanya Diaali</h1>
@@ -34,11 +28,13 @@ function Home() {
 
       </div>
 
-      <a className="carousel-control-prev" href="#demo" data-slide="prev">
+      <a className="carousel-control-prev" href="#demo" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon"></span>
+        <span className="sr-only">Previous</span>
       </a>
-      <a className="carousel-control-next" href="#demo" data-slide="next">
+      <a className="carousel-control-next" href="#demo" role="button" data-slide="next">
         <span className="carousel-control-next-icon"></span>
+        <span className="sr-only">Next</span>
       </a>
     </div>
   );
