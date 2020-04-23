@@ -18,7 +18,7 @@ function Mobile() {
                     <p className="title">Timbr</p>
                 </div>
                 <div className="col-sm">
-                <img src={require("../assets/images/react-web.jpg")} alt="boy" className="i-mg"/>
+                <img src={require("../assets/images/react-web.jpg")} alt="boy" className="i-mg" data-toggle="modal" data-target="#meetappModal"/>
                     <p className="title">MeetApp</p>
                 </div>
                 
