@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h3 {
+  font-family: 'MyWebFont','Arial Rounded MT Bold', Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: maroon;
+}
+
+.i-mg {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  margin: 0.5em;
+}
+
+.i-mg:hover {
+  cursor: pointer;
+}
