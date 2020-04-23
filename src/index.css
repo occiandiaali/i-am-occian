@@ -16,7 +16,7 @@ h1, h3 {
   font-family: 'MyWebFont','Arial Rounded MT Bold', Geneva, Tahoma, sans-serif;
 }
 
-a {
+.title, a {
   color: maroon;
 }
 
