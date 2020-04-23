@@ -11,15 +11,15 @@ function Mobile() {
             <div className="row">
                 <div className="col-sm">
                 <img src={require("../assets/images/gidi.jpg")} alt="gidi guide" className="i-mg"data-toggle="modal" data-target="#gidiModal"/>
-                    <p><a href="/">Gidi Guide</a></p>
+                    <p className="title">Gidi Guide</p>
                 </div>
                 <div className="col-sm">
                 <img src={require("../assets/images/timbr-shot.png")} alt="boy" className="i-mg" data-toggle="modal" data-target="#timbrModal"/>
-                    <p><a href="/">Timbr</a></p>
+                    <p className="title">Timbr</p>
                 </div>
                 <div className="col-sm">
                 <img src={require("../assets/images/react-web.jpg")} alt="boy" className="i-mg"/>
-                    <p><a href="/">MeetApp</a></p>
+                    <p className="title">MeetApp</p>
                 </div>
                 
             </div>
