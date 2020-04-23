@@ -14,9 +14,9 @@
 .carousel-control-prev {
     filter: invert(100%);
 }
-h1, h3 {
+/* h1, h3 {
   font-family: 'MyWebFont','Arial Rounded MT Bold', Geneva, Tahoma, sans-serif;
-}
+} */
 /* h1, h3, p {
     font-family: cursive, Courier, monospace;
 } */
@@ -30,9 +30,9 @@ h1, h3 {
   border-radius: 50%;
 } */
 
-a {
+/* a {
   color: maroon;
-}
+} */
 
 
 /* @media (min-width: 768px) {
