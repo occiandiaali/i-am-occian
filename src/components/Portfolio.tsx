@@ -10,8 +10,9 @@ function Portfolio() {
     return(
         <div className="container">
             <h1>Portfolio</h1>
-            <h5><strong>Over the years, I have attempted to achieve competence in software development, I mostly "learned by doing"</strong></h5> 
-            <h5><strong>while building projects for web, mobile, and games</strong></h5>
+            <h5><strong>Over the years I have attempted to achieve competence in software development mostly via "learning by doing"</strong></h5> 
+            <h5><strong>and built "starter" projects for web, mobile, and games</strong></h5>
+            <p>Tap on images to view samples</p>
                     
             <Router>
             <p><Link to="/web">Web</Link> | <Link to="/mobile">Mobile</Link> | <Link to="/game">Games</Link> <img src={require('../assets/images/arrow-side.png')} alt="arrow" id="arrow"/></p> 
